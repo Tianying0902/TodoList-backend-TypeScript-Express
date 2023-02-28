@@ -6,12 +6,12 @@ This project was structured with [Express](https://expressjs.com/en/starter/inst
 
 In the project directory, you can run:
 
-### 1. `node server.js/node server`
+### 1. `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3001](http://localhost:port) to view it in the browser.
+Open [http://localhost:3333](http://localhost:port) to view it in the browser.
 
-### 2. `jest file/jest file.js`
+### 2. `npm run test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://jestjs.io/docs/getting-started) for more information.

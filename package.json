@@ -4,7 +4,8 @@
   "description": "This is a demo to practice express",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "start":"node server",
+    "test": "jest tests*"
   },
   "author": "Tianying 0902",
   "license": "UNLICENSE",
