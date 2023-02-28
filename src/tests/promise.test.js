@@ -1,19 +1,5 @@
 const queryPromise = require("../api/promise");
 const dbConnection = require("../api/dbConnection");
-const mockSql = jest.mock("mysql");
-
-const mysql = require("mysql");
-const mySqlConnection = () => {
-  const connection = mysql.createConnection({
-    host: "localhost",
-    port: 1234,
-    user: "root",
-    password: "root1234",
-    database: "mockSql",
-  });
-  return connection;
-};
-
 const connectionMock = jest.fn(dbConnection);
 
 test("make sure connect to database successfully", async () => {
