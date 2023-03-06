@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module":"ES6",
+      "esModuleInterop": true, // Or else TypeScript will complain about CJS packages, even if Node can `import` them
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+  "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-jsx"
+    },
+    
+    "include": [
+      "src"
+    ]
+  }

@@ -1,0 +1,30 @@
+{
+  "name": "back-end-myapp",
+  "version": "1.0.0",
+  "description": "express and typescript",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/app.ts",
+    "test": "jest src/app/tests"
+  },
+  "type": "module",
+  "author": "Tianying 0902",
+  "license": "UNLICENSE",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.4.0",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^16.18.3",
+    "@types/supertest": "^2.0.12",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
