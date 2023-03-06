@@ -1,5 +1,5 @@
-const queryPromise = require("../api/promise");
-const dbConnection = require("../api/dbConnection");
+import queryPromise from "../app/Models/promise";
+import dbConnection from "../app/Models/dbConnection";
 const connectionMock = jest.fn(dbConnection);
 
 test("make sure connect to database successfully", async () => {

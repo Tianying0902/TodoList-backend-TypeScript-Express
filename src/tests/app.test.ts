@@ -1,5 +1,5 @@
-const api = require("../api/app");
-const request = require("supertest");
+import api from "../app/Routes/index";
+import request from "supertest";
 
 describe("GET /", () => {
   test("It should response the GET method", async () => {
