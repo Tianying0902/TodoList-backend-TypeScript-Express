@@ -15,8 +15,8 @@ test("the fetch fails with a table that is not exist", async () => {
   try {
     await queryPromise(wrongQuery, connectionMock);
   } catch (err) {
-    expect(err.toString()).toBe(
-      `Error: ER_NO_SUCH_TABLE: Table 'nodesql.xxx' doesn't exist`
+    expect(String(err)).toBe(
+      "Error: ER_NO_SUCH_TABLE: Table 'nodesql.xxx' doesn't exist"
     );
   }
 });
