@@ -18,7 +18,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 ### 3. `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3333](http://localhost:port) to view it in the browser.
+Open [http://localhost:8080](http://localhost:port) to view it in the browser.
 
 ### 4. `npm run test`
 
